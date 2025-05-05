@@ -24,7 +24,7 @@ Grain or digital noise often appears as random speckles in an image, reducing cl
 - **Bilateral Filtering:**  
   Reduces noise while keeping edges sharp by averaging pixels based on both spatial closeness and intensity similarity.
 
----
+
 
 **2. Salt and Pepper Noise**  
 Salt and pepper noise consists of random black and white pixels, typically from transmission errors or sensor faults.
@@ -38,7 +38,7 @@ Salt and pepper noise consists of random black and white pixels, typically from 
 - **Non-Local Means Denoising (NLM):**  
   Uses patch similarity across the entire image to reduce noise, maintaining fine texture and detail—especially effective in low-frequency areas.
 
----
+
 
 **3. Blurred Image**  
 Blur is caused by motion, defocus, or camera shake and leads to loss of detail.
@@ -52,7 +52,7 @@ Blur is caused by motion, defocus, or camera shake and leads to loss of detail.
 - **Bilateral Filtering:**  
   Helps sharpen slightly blurred regions while maintaining smooth transitions and reducing noise.
 
----
+
 
 **4. Saturation Enhancement**  
 Saturation refers to the intensity of colors in an image. Enhancing it makes images look more vivid and vibrant.
@@ -60,7 +60,7 @@ Saturation refers to the intensity of colors in an image. Enhancing it makes ima
 - **HSV Color Space Manipulation:**  
   Convert the image to HSV, increase the saturation (S) channel, clip values to prevent overflow, and convert back to BGR. This enhances color richness without affecting brightness or hue.
 
----
+
 
 ## PROGRAM FLOW
 Start <br>
