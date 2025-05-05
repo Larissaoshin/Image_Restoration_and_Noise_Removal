@@ -63,16 +63,16 @@ Saturation refers to the intensity of colors in an image. Enhancing it makes ima
 ---
 
 ## PROGRAM FLOW
-Start
-   Step 1: Load input images (Grainy, Salt & Pepper, Blurred, Low Saturation)
-   Step 2: Preprocess image if required (resize, normalize)
-   Step 3: Apply restoration/enhancement techniques:
-         Grainy: Wiener → Unsharp → Bilateral\
-         Salt & Pepper: Median → Morphological Opening → Non-local Means
-         Blur: Wiener → Unsharp → Bilateral
-         Saturation: HSV Manipulation
-   Step 4: Evaluate outputs using:
-         PSNR (Peak Signal-to-Noise Ratio)
-         SSIM (Structural Similarity Index)
-   Step 5: Display results side-by-side using matplotlib
-End
+Start <br>
+   Step 1: Load input images (Grainy, Salt & Pepper, Blurred, Low Saturation) <br>
+   Step 2: Preprocess image if required (resize, normalize) <br>
+   Step 3: Apply restoration/enhancement techniques: <br>
+         Grainy: Wiener → Unsharp → Bilateral\  <br>
+         Salt & Pepper: Median → Morphological Opening → Non-local Means <br>
+         Blur: Wiener → Unsharp → Bilateral  <br>
+         Saturation: HSV Manipulation  <br>
+   Step 4: Evaluate outputs using:  <br>
+         PSNR (Peak Signal-to-Noise Ratio)  <br>
+         SSIM (Structural Similarity Index)  <br>
+   Step 5: Display results side-by-side using matplotlib  <br>
+End  <br>
