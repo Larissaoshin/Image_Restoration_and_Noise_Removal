@@ -67,7 +67,7 @@ Start <br>
    Step 1: Load input images (Grainy, Salt & Pepper, Blurred, Low Saturation) <br>
    Step 2: Preprocess image if required (resize, normalize) <br>
    Step 3: Apply restoration/enhancement techniques: <br>
-         Grainy: Wiener → Unsharp → Bilateral\  <br>
+         Grainy: Wiener → Unsharp → Bilateral  <br>
          Salt & Pepper: Median → Morphological Opening → Non-local Means <br>
          Blur: Wiener → Unsharp → Bilateral  <br>
          Saturation: HSV Manipulation  <br>
